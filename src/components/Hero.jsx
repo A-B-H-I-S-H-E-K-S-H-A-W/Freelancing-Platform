@@ -5,7 +5,7 @@ import user2 from "../images/user2.webp"
 import {NavLink} from "react-router-dom"
 import { TypeAnimation } from 'react-type-animation';
 import '../App.css';
-import video from "../videos/hh34.mp4"
+import video from "../videos/hh34.jpg"
 
 
 export default function Hero() {
