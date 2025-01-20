@@ -9,16 +9,11 @@ export default function VideoCard() {
     <>
       <div className="max-w-[1220px] mx-auto">
         <div className="relative p-3">
-          <video
+          <img
+            src={videoSrc}
+            alt="img"
             className="w-full h-[440px] object-cover rounded-lg shadow-lg filter brightness-50"
-            controls
-            autoPlay
-            muted
-            loop
-            src={videoSrc} // Use the imported video file
-          >
-            Your browser does not support the video tag.
-          </video>
+          />
           <div class="absolute inset-0 flex flex-col md:flex-row md:justify-between justify-around items-center text-white bg-opacity-50 p-4">
             <div className="w-full md:w-[60%] flex flex-col gap-2 p-5">
               <h1 class=" text-2xl md:text-5xl font-bold mb-2">

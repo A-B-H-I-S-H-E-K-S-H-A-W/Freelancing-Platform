@@ -8,15 +8,11 @@ export default function Video() {
       <div className="flex justify-center max-w-[1220px] mx-auto mb-20 items-center p-4">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <video
+            <img
+              src={videoSrc}
+              alt="img"
               className="w-full max-w-4xl rounded-lg shadow-lg"
-              autoPlay
-              muted
-              loop
-              src={videoSrc} // Use the imported video file
-            >
-              Your browser does not support the video tag.
-            </video>
+            />
           </div>
           <div className="flex flex-col gap-5">
             <h3 className="text-3xl font-bold mb-5">Lorem ipsum</h3>
